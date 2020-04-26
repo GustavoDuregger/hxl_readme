@@ -1,0 +1,50 @@
+* {
+    padding:0;
+    margin:0px;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+    }
+a { color: inherit;
+ } 
+body{
+    background-color: rgb(245, 245, 245);
+    background-blend-mode: overlay;
+    background-attachment:local;
+    background-origin: initial;
+    background-repeat: no-repeat;
+    backdrop-filter: unset;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+#topBar{
+    background-color: rgb(73, 115, 255);
+    color: white;
+    
+    position: fixed;
+    width: 100%;
+    height: 10%;
+}
+#topBar img{
+    text-align: left;
+    width: 120px;
+    margin-top: -25px;
+    text-align: left;
+    margin-right: 70%;
+    margin-left: 5%;
+}
+#topBar a{
+    text-align: right;
+}
+
+#repos{
+    margin-top: 5%;
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-bottom: 2%;
+}
+#banner{
+    text-align: center;
+}

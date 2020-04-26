@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Assistente para escolha de hashtags HXL</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo/estilo.css">
+ </head>
+  <body>
+    <div id="topBar">
+        <h4>HXL CPLP é um projeto open source, quer contribuir?</h4>
+        <a href="https://github.com/HXL-CPLP/assistente-hashtags-hxl"><button type="button" class="btn btn-outline-light">Saiba Mais!</button></a>
+    </div>
+    <div id="banner">
+      <img src="img/bsf.png">
+      <h3>Assistente para escolha de hashtags HXL</h3>
+      <hr>
+    </div>
+    <div id="sobre">
+      <h1>Sobre</h1>
+      <h4>Sistema especialista em português para seleção de hashtags HXL. Usa script python para gerar página HTML estática usando uma base de conhecimentos sobre o Padrão HXL que está encodada em formato JSON.</h4>
+      <button type="button" class="btn btn-outline-primary">Ir para o repositório</button>
+    </div>
+<!--
+    Sobre o HXL
+A Linguagem de Intercâmbio Humanitária (em inglês: Humanitarian Exchange Language, HXL) é um padrão simples baseado em hashtag que os respondedores de crises humanitárias podem usar para adicionar informações interoperáveis a planilhas e dados similares.
+
+O HTML gerado por esse repositório é atua como um sistema especialista que ajuda pessoas que trabalham como Gestores de Informação a escolher hashtags mais precisas e interoperáveis.
+
+A versão mais atualizada pode ser acessada em https://hxl.etica.ai/assistente-hashtags-hxl/.
+
+Versão original em inglês
+O repositório do qual este projeto é um hard fork está em https://github.com/HXLStandard/hxl-hashtag-chooser.
+
+O acesso do resultado da versão em inglês pode ser acessada em https://hxlstandard.github.io/hxl-hashtag-chooser/index.html.
+
+Uso
+Para gerar o HTML que está na pasta docs/ pode usar o Makefile fornecido:
+
+$ make
+Para gerar o HTML diretamente:
+
+$ python gen-chooser.py > docs/index.html
+$ cp style.css docs/style.css
+-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
